@@ -73,3 +73,5 @@ If you are starting from scratch and are struggling to configure a basic React +
 ## Back to the terminal again:
 9. Run ```npm run serve``` for checking on development. Every change you do on your files will be autloaded to your browser.
 10. Run ```npm run build``` will create the 'dist' folder with the production ready files to upload to your server.
+
+Now you can go to your 'src' folder and start playing with the App.js, index.html and App.scss to create anything you like. Enjoy!
