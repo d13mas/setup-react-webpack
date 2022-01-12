@@ -1,6 +1,8 @@
 # React Webpack Setup
 
-In your Terminal:
+If you are starting from scratch and are struggling to configure a basic React + Webpack to begin developing, follow this step-by-step guide.
+
+## In your Terminal:
 1. Create a new folder for your project 
     ```
     mkdir myproject
@@ -19,6 +21,7 @@ In your Terminal:
     npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader file-loader css-loader sass-loader sass webpack webpack-cli style-loader webpack-dev-server
     # this also updates your package.json file
     ```
+## In VSCode 
 5. Create a file ".babelrc" in the project's root folder with this content:
     ```
     {
@@ -64,8 +67,9 @@ In your Terminal:
 7. Create a 'src' folder and download the files on this repo inside that folder.
 8. In your package.json file add the following 2 scripts:
     ```
-    "serve": "webpack serve --mode development", //
+    "serve": "webpack serve --mode development",
     "build": "webpack --mode production"
     ```
+## Back to the terminal again:
 9. Run ```npm run serve``` for checking on development. Every change you do on your files will be autloaded to your browser.
 10. Run ```npm run build``` will create the 'dist' folder with the production ready files to upload to your server.
